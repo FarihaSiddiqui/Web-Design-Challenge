@@ -165,8 +165,6 @@ a img {
     
     .description-content {
         padding: 0px;
-        margin-top: 30px;
-        background-color: white;
     }
     
     .description-image {
@@ -185,6 +183,25 @@ a img {
         width: 125px;
         height: 125px;
     }
+    .visualization-content {
+        padding: 0px;
+    }
+    
+    .visualization-image {
+        float: center;
+        width: 650px;
+        height: 450px;
+        margin-top: 20px;
+        margin-right: 20px; 
+        margin-left: 20px;
+        max-width: 100%;
+    }
+    
+    .comparison-image-settings {
+        width: 450px;
+        height: 300px;
+    }
+    
 }
 
 
