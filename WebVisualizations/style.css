@@ -36,6 +36,12 @@ body {
     background-color: white;
   }
 
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 0.9rem;
+}
+
 .navbar-brand {
     background-color: cadetblue;
     padding: 10px;
@@ -93,6 +99,7 @@ body {
     margin-top: 20px;
     margin-right: 20px; 
     margin-left: 20px;
+    max-width: 100%;
 }
 
 .comparison-image-settings {
@@ -125,11 +132,29 @@ a img {
     text-align: left;
     } */
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     .navbar.bg-light {
         background-color: cadetblue !important;
         padding: 10px;
     }
+    .navbar-collapse{
+        background-color: white;
+        border: 0;
+    }
+    .navbar.navbar-expand-md {
+        padding: 0;
+    }
+
+    .nav-link.dropdown-toggle {
+        font-size: 0.9rem;
+    }
+    .dropdown-item {
+        font-size: 0.9rem;
+    }
+    .dropdown-menu {
+        border: 0;
+    }
+
     h1{
         padding: 5px;
         text-align: left;
