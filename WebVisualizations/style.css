@@ -131,7 +131,6 @@ body {
 thead {
     font-weight: bold;
     font-size: .75em;
-
 }
 
 tbody {
@@ -151,7 +150,6 @@ a:hover img {
 a img {    
     border: 1px solid white;
 }
-
 
 @media (max-width: 768px) {
     .navbar.bg-light {
